@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<title>Ruthton Roasters - Order</title>
+</head>
+<body id="order">
+	<div id="wrapper">
+		<header>
+			<h1>
+				<a href = "index.html">Ruthton Roasters</a>
+			</h1>
+			<div id="contact">
+				<ul>
+					<li class="email"><a href="emailto:roasters@ruthton.com">roasters@ruthton.com</a></li>
+					<li class="phone">(612) 328 0091</li>
+				</ul>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html" id="homelink">Home</a></li>
+				<li><a href="about.html" id="aboutlink">About</a></li>
+				<li><a href="order.html" id="orderlink">Order</a></li>
+			</ul>
+		</nav>
+		<div id="content">
+			<h2>
+				Order Coffee
+			</h2>
+			<form>
+				<fieldset>
+					<legend>Contact Information</legend>
+					<label for="name">Your name</label> 
+					<input type="text" id="name">
+					<label for="email">Your email</label> 
+					<input type="email" id="email">
+					<label for="phone">Your phone</label> 
+					<input type="tel" id="phone">
+				</fieldset>
+				<fieldset>
+					<legend>Product Information</legend>
+					<label for="product">Select your Beans</label>
+					<input name="product" list="productsarray" id="product">
+					<datalist id="productsarray" name="product">
+
+						<label>Or select from the list</label>
+
+						<select name="products">
+							<option selected>Select your Beans</option>
+							<option value="Costa Rican">Costa Rica Rio Jorco</option>
+							<option value="Guatemalan">Guatemala San Pedro La Laguna</option>
+							<option value="Kiboko">Kiboko Peaberry</option>
+							<option value="Ethiopian">Ethiopia Kochere</option>
+							<option value="Sumatran">Sumatra Mandheling</option>
+						</select>
+					</datalist>
+
+					<label for="quantity">Quantity (lbs)</label> 
+					<input type="number" id="quantity" placeholder="1-75 lbs" min="1" max="75" name="quantity">
+
+					<p>Select the Roast</p> 
+					<label>
+						<input type="radio" name="roast" value="light" checked>Light Roast
+					</label>
+					<label>
+						<input type="radio" name="roast" value="french">French Roast
+					</label>
+					<label>
+						<input type="radio" name="roast" value="medium">Medium Roast
+					</label>
+					<label>
+						<input type="radio" name="roast" value="dark">Dark Roast
+					</label>
+				</fieldset>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<footer>
+			<ul>
+				<li><a href="#"><img src="images/social-006-round_facebook.png"></a></li>
+				<li><a href="#"><img src="images/social-005-round_twitter.png"></a></li>
+				<li><a href="#"><img src="images/social-009-round_google.png"></a></li>
+				<li><a href="#"><img src="images/social-038-round_instagram.png"></a></li>
+			</ul>
+			<p>
+				Ruthton Roasters, All rights reserved 2015
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
