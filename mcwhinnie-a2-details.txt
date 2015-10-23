@@ -1,0 +1,54 @@
+Assignment 2, Alex McWhinnie
+
+Website URL: e20-a2.alexmcwhinnie.com
+
+————————————————————————————————————
+FLOATS
+————————————————————————————————————
+
+	CSS
+	———— 
+	Line 36 	(h1)
+	Line 47 	(#contact)
+	Line 148 	(fieldset)
+
+	HTML
+	————
+	index.html
+		Line 12		(h1)
+		Line 15		(#contact)
+
+	about.html
+		Line 12		(h1)
+		Line 15		(#contact)
+
+	order.html
+		Line 12		(h1)
+		Line 15		(#contact)
+		Line 34 & 43	(fieldsets)
+
+
+————————————————————————————————————
+POSITIONING
+————————————————————————————————————
+
+	CSS
+	———— 
+	Line 23
+
+	HTML
+	————
+	index.html, about.html, order.html
+		Line 11		(header)
+
+
+————————————————————————————————————
+CSS3 TECHNIQUES
+————————————————————————————————————
+
+	CSS
+	————
+	Web fonts		Line 29
+	Border-radius		Line 38, 81, 106
+	Transparency in images	Line 143
+
